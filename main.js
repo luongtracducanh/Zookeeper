@@ -121,14 +121,14 @@ Switching on the camera in the rabbit habitat...
 (" ~----( ~   Y.  )
 It looks like we will soon have more rabbits!`;
 
-const habitat = [camel, lion, deer, goose, bat, rabbit];
+let habitat = [camel, lion, deer, goose, bat, rabbit];
 
 while (true) {
-	let prompt;
-	prompt = input("Please enter the number of the habitat you would like to view: ");
-	console.log(habitat[prompt]);
-	if (prompt.toLowerCase() == "exit") {
-		console.log("See you later!");
-		break;
-	}
+   const prompt = input("Please enter the number of the habitat you would like to view: ");
+   if (prompt.toLowerCase() == "exit") {
+      console.log("See you later!");
+      break;
+   } else {
+      console.log(habitat[prompt]);
+   }
 }
