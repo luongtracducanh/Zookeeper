@@ -1,6 +1,6 @@
-const input = require('sync-input');
+input = require('sync-input');
 
-const camel = `
+camel = `
 Switching on the camera in the camel habitat...
  ___.-''''-.
 /___  @    |
@@ -21,7 +21,7 @@ Switching on the camera in the camel habitat...
            /_I      L_I   L_I     /_I
 Look at that! Our little camel is sunbathing!`;
 
-const lion = `
+lion = `
 Switching on the camera in the lion habitat...
                                                ,w.
                                              ,YWMMw  ,M  ,
@@ -39,7 +39,7 @@ WMMm__,-'.'     /      _.\\      F'''-+,,   ;_,_.dMMMMMMMM[,_ / \`=_}
         (--, )                \`,_ / \`) \\/"")      ^"      \`-, -;"\\:
 The lion is roaring!`;
 
-const deer = `
+deer = `
 Switching on the camera in the deer habitat...
    /|       |\\
 \`__\\\\       //__'
@@ -67,7 +67,7 @@ Switching on the camera in the deer habitat...
           /_//_/           /_/   /_/
 Our 'Bambi' looks hungry. Let's go to feed it!`;
 
-const goose = `
+goose = `
 Switching on the camera in the goose habitat...
 
                                     _
@@ -83,7 +83,7 @@ Switching on the camera in the goose habitat...
     \`------------------------------------------
 The goose is staring intently at you... Maybe it's time to change the channel?`;
 
-const bat = `
+bat = `
 Switching on the camera in the bat habitat...
 _________________               _________________
  ~-.              \\  |\\___/|  /              .-~
@@ -98,7 +98,7 @@ _________________               _________________
                    V         V
 This bat looks like it’s doing fine.`;
 
-const rabbit = `
+rabbit = `
 Switching on the camera in the rabbit habitat...
          ,
         /|      __
@@ -121,7 +121,7 @@ Switching on the camera in the rabbit habitat...
 (" ~----( ~   Y.  )
 It looks like we will soon have more rabbits!`;
 
-let habitat = [camel, lion, deer, goose, bat, rabbit];
+habitat = [camel, lion, deer, goose, bat, rabbit];
 
 while (true) {
 	const prompt = input("Please enter the number of the habitat you would like to view: ");
