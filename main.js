@@ -124,11 +124,11 @@ It looks like we will soon have more rabbits!`;
 habitat = [camel, lion, deer, goose, bat, rabbit];
 
 while (true) {
-	const prompt = input("Please enter the number of the habitat you would like to view: ");
-	if (prompt.toLowerCase() == "exit") {
-		console.log("See you later!");
-		break;
-	} else {
-		console.log(habitat[prompt]);
-	}
+    const prompt = input("Please enter the number of the habitat you would like to view: ");
+    if (prompt.toLowerCase() == "exit") {
+        console.log("See you later!");
+        break;
+    } else {
+        console.log(habitat[prompt]);
+    }
 }
